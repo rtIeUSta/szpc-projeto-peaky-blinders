@@ -1,0 +1,27 @@
+@media(max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+@media(max-width: 768px){
+    .informacaes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacaes .desscricao{
+        width: 60%;
+        text-align: center;
+    }
+}
+@media(max-width: 425px){
+    .informacaes .logo{
+        max-width: 300px;
+    }
+    .informacaes .desscricao{
+        width: 100%;
+    }
+    body{
+        padding: 40px;
+    }
+}
